@@ -1,0 +1,7 @@
+LIBRARY "office97"
+EXPORTS
+    xlAutoOpen = _xlAutoOpen@0
+    xlAutoClose = _xlAutoClose@0
+
+    wdAutoOpen        = _wdAutoOpen@0
+    wdAutoClose      = _wdAutoClose@0

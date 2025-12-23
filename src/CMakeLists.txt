@@ -1,7 +1,7 @@
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
 option(ENABLE_IO_THREAD "Start up a separate I/O thread, otherwise I'd need to call an update function" ON)
-option(USE_STATIC_CRT "Use /MT[d] for dynamic library" OFF)
+option(USE_STATIC_CRT "Use /MT[d] for dynamic library" ON)
 option(WARNINGS_AS_ERRORS "When enabled, compiles with `-Werror` (on *nix platforms)." OFF)
 
 set(CMAKE_CXX_STANDARD 14)
@@ -123,25 +123,3 @@ endif(${BUILD_SHARED_LIBS})
 if (CLANG_FORMAT_CMD)
     add_dependencies(discord-rpc clangformat)
 endif(CLANG_FORMAT_CMD)
-
-# install
-
-install(
-    TARGETS discord-rpc
-    EXPORT "discord-rpc"
-    RUNTIME
-        DESTINATION "${CMAKE_INSTALL_BINDIR}"
-    LIBRARY
-        DESTINATION "${CMAKE_INSTALL_LIBDIR}"
-    ARCHIVE
-        DESTINATION "${CMAKE_INSTALL_LIBDIR}"
-    INCLUDES
-        DESTINATION "${CMAKE_INSTALL_INCLUDEDIR}"
-)
-
-install(
-    FILES
-        "../include/discord_rpc.h"
-		"../include/discord_register.h"
-    DESTINATION "include"
-)
