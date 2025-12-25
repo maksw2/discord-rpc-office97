@@ -22,3 +22,15 @@ yes i have too much time
 ## how 2 contact
 
 - maksw@maksw.pl
+
+Q: Why Office 97?
+A: Why not?
+
+Q: Is this a joke?
+A: It's a fully functional joke.
+
+Q: Can I use this in production?
+A: If you're using Office 97 in production, you have bigger problems than Discord integration.
+
+Q: Will you add Office 2000 support?
+A: Maybe.
