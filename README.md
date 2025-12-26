@@ -23,14 +23,17 @@ yes i have too much time
 
 - maksw@maksw.pl
 
-Q: Why Office 97?
+Q: Why Office 97?  
 A: Why not?
 
-Q: Is this a joke?
+Q: Is this a joke?  
 A: It's a fully functional joke.
 
-Q: Can I use this in production?
-A: If you're using Office 97 in production, you have bigger problems than Discord integration.
+Q: Can I use this in production?  
+A: If you're using Office 97 in production, you have bigger problems.
 
-Q: Will you add Office 2000 support?
+Q: Will you add Office 2000 support?  
 A: Maybe.
+
+Q: Does this work on Windows 98?  
+A: Does Discord work on Windows 98?
