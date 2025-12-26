@@ -34,3 +34,6 @@ A: If you're using Office 97 in production, you have bigger problems than Discor
 
 Q: Will you add Office 2000 support?
 A: Maybe.
+
+Q: Does this work on Windows 98?
+A: Does Discord work on Windows 98?
